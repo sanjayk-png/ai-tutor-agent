@@ -9,7 +9,7 @@ from PIL import Image
 import google.generativeai as genai
 from vector_store import add_to_index, search_similar
 
-genai.configure(api_key=os.getenv("AIzaSyBIr_a1WMbblgGamDQaY2vVKnuLb2vzfGM"))
+genai.configure(api_key=os.getenv("Google_API_Key"))
 LLM_MODEL = "models/gemini-2.5-flash"
 
 app = FastAPI(title="AI Tutor Agent")
