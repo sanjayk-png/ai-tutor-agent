@@ -3,7 +3,7 @@ import numpy as np
 import os
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("AIzaSyBIr_a1WMbblgGamDQaY2vVKnuLb2vzfGM"))
+genai.configure(api_key=os.getenv("Goolge_API_KEY"))
 
 EMBED_MODEL = "models/text-embedding-004"
 
